@@ -10,11 +10,11 @@ class App extends Component {
     searchField: ''
   }
   async componentDidMount(){
-      const M_api_call = await fetch('http://jsonplaceholder.typicode.com/users');
+      const M_api_call = await fetch('https://jsonplaceholder.typicode.com/users');
       const res = await M_api_call.json();
       console.log(res);
       this.setState({
-        monsters: res,
+        monsters: res
       })
 
     }
