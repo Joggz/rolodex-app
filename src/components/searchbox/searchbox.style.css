@@ -1,0 +1,21 @@
+.search {
+    -webkit-apperance: none;
+    border: none;
+    border-bottom: 2px solid aqua;
+    outline: none;
+    padding: 3px;
+    width: 190px;
+    line-height: 30px;
+    margin-bottom: 30px;
+    background-color: transparent !important
+}
+input:focus{
+    background-color: transparent !important;
+    box-shadow: none !important;
+    color: white !important; 
+    font-size: 18px;
+}
+
+input::-webkit-input-placeholder{
+    color: white !important;
+}
